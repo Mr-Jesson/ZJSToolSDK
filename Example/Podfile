@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ZJSToolSDK_Example' do
+  pod 'ZJSToolSDK', :path => '../'
+
+  target 'ZJSToolSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
