@@ -1,0 +1,6 @@
+framework module ZJSToolSDK {
+  umbrella header "ZJSToolSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
